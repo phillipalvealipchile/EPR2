@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\chico\Desktop\EPR2_PHILLIP_ALVEAL\.metadata\.plugins\org.eclipse.jdt.core
+3253387526.index
+2551862790.index

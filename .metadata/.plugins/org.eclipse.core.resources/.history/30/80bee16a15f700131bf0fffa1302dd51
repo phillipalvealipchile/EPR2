@@ -1,0 +1,46 @@
+package com.example.music_non_stop;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+//import android.widget.RadioButton;
+//import android.media.MediaPlayer;
+
+
+
+
+public class pregunta_1 extends Activity {
+	//public RadioButton r1,r2;
+	//MediaPlayer mp;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.pregunta_1);
+		//r1=(RadioButton)findViewById(R.id.r1);
+       // r2=(RadioButton)findViewById(R.id.r2);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+		}
+	{	
+		
+	//if (r2.isChecked()==true) {
+		//mp.start();
+		
+       
+   // } else
+       // if (r1.isChecked()==true) {
+         //   mp.stop();                
+        }
+	
+	}
+
+
+//}
+	
+	
+

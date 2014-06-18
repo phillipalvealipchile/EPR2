@@ -1,0 +1,14 @@
+package com.example.music_non_stop;
+
+import android.app.Activity;
+import android.content.Intent;
+
+public class pregunta_1 extends Activity {
+
+	
+
+{
+	
+
+}
+}
