@@ -31,4 +31,14 @@
         android:layout_marginBottom="52dp"
         android:text="Where Mom and Dad live?" />
 
+    <Button
+        android:id="@+id/button_Respond3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb_respuesta2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:onClick="responder"
+        android:text="Respond" />
+
 </RelativeLayout>

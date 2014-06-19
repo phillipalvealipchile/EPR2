@@ -32,4 +32,14 @@
         android:layout_marginTop="55dp"
         android:text="Do not care" />
 
+    <Button
+        android:id="@+id/button_Respond5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/rbt_respuesta2"
+        android:layout_marginTop="62dp"
+        android:onClick="responder"
+        android:text="Respond" />
+
 </RelativeLayout>

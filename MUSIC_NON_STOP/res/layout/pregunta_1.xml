@@ -31,4 +31,14 @@
         android:layout_marginTop="68dp"
         android:text="I was on the street?" />
 
+    <Button
+        android:id="@+id/button_Respond1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="60dp"
+        android:onClick="responder"
+        android:text="Respond" />
+
 </RelativeLayout>

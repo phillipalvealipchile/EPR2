@@ -31,4 +31,14 @@
         android:layout_marginTop="67dp"
         android:text="Nixon died if that happened with rock?" />
 
+    <Button
+        android:id="@+id/buttonRespond6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbtn_respuesta2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:onClick="responder"
+        android:text="Respond" />
+
 </RelativeLayout>

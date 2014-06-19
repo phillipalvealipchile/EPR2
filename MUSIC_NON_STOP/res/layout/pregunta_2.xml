@@ -31,4 +31,14 @@
         android:layout_marginTop="30dp"
         android:text="Nothing" />
 
+    <Button
+        android:id="@+id/button_Respond2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rb_respuesta1"
+        android:layout_below="@+id/rb_respuesta2"
+        android:layout_marginTop="57dp"
+        android:onClick="responder"
+        android:text="Respond" />
+
 </RelativeLayout>

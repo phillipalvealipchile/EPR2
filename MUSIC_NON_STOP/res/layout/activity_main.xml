@@ -9,36 +9,7 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_centerVertical="true"
-        android:onClick="continuar"
-        android:text="Continuar" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_below="@+id/button3"
-        android:layout_marginTop="30dp"
-        android:onClick="detener"
-        android:text="Detener" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/button4"
-        android:layout_below="@+id/button1"
-        android:layout_marginTop="21dp"
-        android:onClick="pausar"
-        android:text="Pausar" />
-
-    <Button
-        android:id="@+id/button1"
+        android:id="@+id/button_Respond1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"

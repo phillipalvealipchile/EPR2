@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		b1 = (Button) findViewById(R.id.button4);
+		b1 = (Button) findViewById(R.id.button_Respond1);
 	}
 
 	@Override
@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 	
 
 	
-		if(posicion==1){
+		if(mp.getCurrentPosition()==27000){
             mp.pause();
 			Intent i = new Intent (this , pregunta_1.class);
 			startActivity(i);
@@ -74,7 +74,7 @@ public class MainActivity extends Activity {
 			}
 			}
 
-	public void pausar(View v) {
+	public void pausar() {
 		if (mp != null && mp.isPlaying()) {
 			posicion = mp.getCurrentPosition();
 			mp.pause();
@@ -83,14 +83,14 @@ public class MainActivity extends Activity {
 			
 		
 
-	public void continuar(View v) {
+	public void continuar() {
 		if (mp != null && mp.isPlaying() == false) {
 			mp.seekTo(posicion);
 			mp.start();
 		}
 	}
 
-	public void detener(View v) {
+	public void detener() {
 		if (mp != null) {
 			mp.stop();
 			posicion = 0;

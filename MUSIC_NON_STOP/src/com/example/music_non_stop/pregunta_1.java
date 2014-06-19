@@ -3,22 +3,23 @@ package com.example.music_non_stop;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-//import android.widget.RadioButton;
-//import android.media.MediaPlayer;
+import android.view.View;
+import android.widget.RadioButton;
+import android.media.MediaPlayer;
 
 
 
 
 public class pregunta_1 extends Activity {
-	//public RadioButton r1,r2;
-	//MediaPlayer mp;
+	public RadioButton r1,r2;
+	MediaPlayer mp;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pregunta_1);
-		//r1=(RadioButton)findViewById(R.id.r1);
-       // r2=(RadioButton)findViewById(R.id.r2);
-	}
+		r1=(RadioButton)findViewById(R.id.r1);
+        r2=(RadioButton)findViewById(R.id.r2);
+	}  
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -26,10 +27,20 @@ public class pregunta_1 extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 		}
+	
+	public void responder(View v) {
+		
+	
+	
+	
 	{	
+		
+		
+		
 		
 	//if (r2.isChecked()==true) {
 		//mp.start();
+		
 		
        
    // } else
@@ -39,7 +50,7 @@ public class pregunta_1 extends Activity {
 	
 	}
 
-
+}
 //}
 	
 	
